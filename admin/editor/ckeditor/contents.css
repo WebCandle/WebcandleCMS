@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://www.dmsgate.com/css/fonts/DroidKufi-Regular.eot);
+  src: url(http://www.dmsgate.com/css/fonts/DroidKufi-Regular.eot?#iefix) format('embedded-opentype'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Regular.woff2) format('woff2'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Regular.woff) format('woff'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Droid Arabic Kufi';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://www.dmsgate.com/css/fonts/DroidKufi-Bold.eot);
+  src: url(http://www.dmsgate.com/css/fonts/DroidKufi-Bold.eot?#iefix) format('embedded-opentype'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Bold.woff2) format('woff2'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Bold.woff) format('woff'),
+       url(http://www.dmsgate.com/css/fonts/DroidKufi-Bold.ttf) format('truetype');
+}
+
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dt, dd, ol, ul, li,fieldset, form, label, legend, select , option {
+        margin: 0;
+        padding: 0;
+        border: none;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: top;
+        background: transparent;
+}
+table { border-collapse:collapse; }
+table, th, td { border: 1px solid #808084; }
+td , th { padding: 5px; }
+th { font-weight: normal; }
+ol, ul { list-style: none; }
+img { display: block; margin: 0 auto; margin-bottom:10px; }
+
+/*************************** content style *******************************/
+ body { padding:7px; line-height: 25px; font-size: 14px; font-family: 'Droid Arabic Kufi',Tahoma, Geneva, sans-serif; color: #888888; }
+ h1 , h2 ,h3 ,h4 ,h5 ,h6 { color: #3498db; line-height: 60px; font-size: 24px; font-weight:bold; }
+ ul {  list-style: url(https://www.alryadeh.com/images/li.gif) ; padding-right: 15px; margin-right: 5px; }
+a { color: #2ECC71; text-decoration: none; }
+a:hover { color: #4ae387; }
+ /**************************** about page style **************************************/
+.a1 { clear:both; }
+.a1 .img1 { float:right; width: 20%; clear:right; padding-top: 30px; }
+.a1 .p1 { float:left; width: 75%; }

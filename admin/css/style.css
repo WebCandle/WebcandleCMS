@@ -1,0 +1,166 @@
+﻿@charset "utf-8";
+
+tml, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td , option {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        outline: 0;
+        font-size: 100%;
+        vertical-align: top;
+        background: transparent;
+}
+ol, ul {
+        list-style: none;
+}
+.clear {
+	clear:both;
+}
+.center {
+	width:960px;
+	margin:0 auto;
+}
+a , a:visited {
+	color: #369;
+	text-decoration:none;
+}
+a:hover { color: red; }
+.rtl , .ar {	direction: rtl; }
+.ltr , .en , .fr , .all { direction: ltr; }
+/***** For just arabic sites ****
+.all { direction:rtl; }
+/**********/
+table {
+	width:100%;
+}
+body {
+	direction:rtl;
+	background: url(../images/body.jpg) no-repeat center center;
+	background-size: cover;
+	background-attachment:fixed;
+}
+/********************/
+.success, .warning, .attention, .information {
+	padding: 5px 10px;
+    padding-right: 33px;
+	margin: 10px 25px;
+	color: #555555;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+.success {
+	background: #EAF7D9 url('../images/success.png') right center no-repeat;
+	border: 1px solid #BBDF8D;
+}
+.warning {
+	background: #FFD1D1 url('../images/warning.png') right center no-repeat;
+	border: 1px solid #F8ACAC;
+}
+.attention {
+	background: #FFF5CC url('../images/attention.png') right center no-repeat;
+	border: 1px solid #F2DD8C;
+}
+h1 { text-align:center; height:40px; line-height:40px; }
+#content { width:800px; float:left; background:#ddd }
+#sideNav { width:160px; float:right; background-color: #505050;}
+#sideNav > ul { margin: 5px 2px; margin-right:5px; }
+#sideNav li { position:relative; height:35px; line-height:35px; }
+#sideNav li a { color:white; font-weight:bold; display:block; }
+#sideNav li a:hover { color:#CeCeCe; }
+.content-title { position:relative; height:35px; text-align:center; line-height:35px; background-color:#505050; color:white; } 
+.sub-menu { display:none; position:absolute; background: rgba(4,4,4,0.8); top:0; right:100%; min-width: 150px; white-space:nowrap; padding: 5px 10px; }
+#sideNav li:hover .sub-menu { display:block; }
+/*****************<form>******************/
+label { display:block; clear:both; margin:8px 0; }
+.label-title { height:27px; line-height:27px; text-indent:10px; width:200px; float:right; text-align:center; }
+.cms-show-label-title {  height:30px; line-height:30px; font-weight:bold; }
+.form-text { font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:15px; width:560px; padding:0 5px; height:25px; line-height:25px; border:1px solid #666; }
+.form-date { font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:15px; width:560px; padding:0 5px; height:25px; line-height:25px; border:1px solid #666; background: white url(../images/date.png) no-repeat 5px center; color: #2a90ec; }
+.form-textarea { font-family:Arial, Helvetica, sans-serif; font-weight:normal; font-size:15px; width:560px; padding:5px; height:100px; resize:none; border:1px solid #666; }
+.form-select { font-family:Arial, Helvetica, sans-serif; font-weight:normal; padding:5px; width:572px; border:1px solid #666 ; }
+.form-select option { font-family:Arial, Helvetica, sans-serif; font-weight:normal; }
+.form-checkbox-options { width:560px; float:right; background-color:white; border:1px solid #666666; padding:5px; }
+.form-checkbox-option { float:right; width: 280px; clear:none; }
+.form-checkbox-options-control { text-align:center; height:30px; line-height:30px; }
+.form-checkbox-options-control a { font-family:Tahoma, Geneva, sans-serif; font-size:11px; color:#333333; }
+.form-radio-options { width:560px; float:right; background-color:white; border:1px solid #666666; padding:5px; }
+.form-radio-option { float:right; width: 180px; clear:none; }
+.form-file { border:1px solid #666 ; }
+.form-submit , .form-button { cursor:pointer; font-family:Verdana, Geneva, sans-serif; padding: 5px 20px; }
+.form-hidden { display:none; }
+.cms-image-container { width:600px; float:left; }
+.editor-title { width:777px; margin:0 auto; height:30px; text-align:center; line-height:30px; background-color:#eee; }
+.form-buttons { text-align:center; padding: 5px 0 ; }
+#cke_elem1 , #cke_elem2 , #cke_elem3 , #cke_elem4 , #cke_elem5 , #cke_elem6 , #cke_elem7 , #cke_elem8 , #cke_elem9 , #cke_elem10 , #cke_elem11 ,#cke_elem12 , #cke_elem13 , #cke_elem14 , #cke_elem15  { margin: 5px auto; }
+.cmsFormLoaderGif { width:16px; height:11px; background: url(../images/loader.gif) no-repeat center center; display:none;}
+.cms-thumb { position:relative; text-align:center; float:right; width:165px; height:165px; margin:10px; border: solid 1px #666 ; }
+.cms-thumb-filename { overflow:hidden; padding-top:146px; text-align:center; font-size:12px; }
+.cms-thumb-imagename { overflow:hidden; text-align:center; margin-top:2px; font-size:12px; height:20px; line-height:20px; }
+.cms-thumb img { margin-top:15px; width:128px; height:128px; }
+.cms-thumb-doc , .cms-thumb-docx { background: url(../images/docx.png) no-repeat center top; }
+.cms-thumb-pdf { background: url(../images/pdf.png) no-repeat center 10px; }
+.cms-thumb-xls , .cms-thumb-xlsx { background: url(../images/xlsx.png) no-repeat center top; }
+.cms-thumb-txt { background:url(../images/txt.png) no-repeat center top; }
+.cms-thumb-rar , .cms-thumb-zip { background:url(../images/zip.png) no-repeat center top; }
+.cms-delete-file { display:block; visibility:hidden; width:16px; height:16px; background: url(../images/delete.png) no-repeat center center; position:absolute; z-index:1 ; top:2px; left:2px; }
+.cms-thumb:hover .cms-delete-file { visibility:visible; }
+.cms-table { width:780px; margin: 0 auto; position:relative; }
+.cms-cells { float:right; }
+.cms-cell { float: right; font-size:11px; overflow-y: scroll; overflow:auto; font-family:Tahoma, Geneva, sans-serif; }
+.cms-cell-text { margin: 0 3px; }
+.cms-cell-date { direction:ltr; color:green; font-family:Tahoma, Geneva, sans-serif; padding: 0 15px; }
+.cms-cell-image img { margin: 4px 4px 4px 0px; border: solid 1px #CCC ; }
+.cms-control-cell { float:left; padding: 0 3px; }
+.cms-control-edit , .cms-control-delete , .cms-control-active , .disactive , .cms-control-up , .cms-control-down { display:block; width:16px; height:16px; background-position: center center; background-repeat: no-repeat; }
+.cms-control-edit { background-image: url(../images/edit.png) ; }
+.cms-control-delete { background-image: url(../images/delete.png) ; }
+.cms-control-active { background: url(../images/activation.png) no-repeat center top ;  }
+.disactive { background: url(../images/activation.png) no-repeat center bottom ; }
+.cms-control-up { background: url(../images/arrow.png) no-repeat center top ; }
+.cms-control-down { background: url(../images/arrow.png) no-repeat center bottom ; }
+.cms-row { position: relative; width:100%;}
+.cms-row-odd { background-color: #bbb; }
+.cms-control-add { display:block; width:25px; height:25px; position:absolute; top:5px; left:12px; background: url(../images/add.png) no-repeat center center; }
+.cms-control-filter { display:none; /*display:block;*/ width:25px; height:25px; position:absolute; top:5px; left:52px; background: url(../images/filter.png) no-repeat center center; }
+.cms-relation-container { margin-top:8px; padding-bottom: 8px ; margin-bottom:10px; border-bottom: 1px dashed #BBBBBB; }
+.cms-relation-container label { font-weight:bold; }
+.form-text-required { border: solid 1px red ; }
+.form-text-number { border: solid 1px red; }
+.form-text-mail { border:solid 1px red ; }
+.form-text-found { border: solid 1px red ; }
+.cmsFormChecker { width:16px; height:16px; float:left; position:relative; margin-left:6px; margin-top:4px; }
+.checker-icon { visibility:hidden; position:absolute; width:16px; height:16px; z-index:1; top:0; left:0; }
+.checker-ok { background: url(../images/checker-result.png) no-repeat center top ; }
+.checker-no { background: url(../images/checker-result.png) no-repeat center bottom ; }
+.checker-loader { background: url(../images/checker.gif) no-repeat center center ; }
+/*****************</form>*****************/
+#system_login {  width: 550px; height:179px; margin:0 auto; margin-top:200px; position:relative; overflow:hidden; }
+#login-box { position:absolute; left:0; top:-190px; width: 550px; height:179px; background: url(../images/login.jpg) no-repeat center center;}
+.body-login { direction: ltr;}
+#login-control { position:absolute; top:97px; left:20px; width: 482px; }
+.login-text { margin:0; padding:0; padding-left:10px; padding-right:28px; width:175px; height:33px; line-height:33px; font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#949494; border:none; }
+.login-name { background: url(../images/username.gif) no-repeat center center; margin-right:8px; }
+.login-pass { background: url(../images/password.gif) no-repeat center top; margin-right:8px; }
+.login-submit { display: block; background: url(../images/login-button.png) no-repeat center center; margin:0; padding:0; border:none; width:41px; height:33px; cursor:pointer; position:absolute; z-index:99; right: 0px; top: 1px; }
+/*******************************************/
+#header { height:50px; margin:5px 0; }
+#header ul { widht:800px; float:right; height:40px; background: url(../images/header.gif) repeat-x top left; }
+#header li { float:right; width:200px; height:40px; }
+#header li a { display: block; height:40px; text-align:center; background: url(../images/header.gif) repeat-x bottom left; color:black; font-size:18px; line-height:40px; }
+#header li a:hover { color: #c2252b; }
+#logo { display:block; width:130px; height:40px; float:left; }
+.styllll { margin-top:10px; margin-left:5px; margin-right:5px;}
+/******************* Pagination *************/
+.cms-pagination { margin-top:10px; padding-top:5px; border-top: dashed 1px #BBBBBB; text-align:center; }
+.cms-pagination-results { color:green; font-family:Tahoma, Geneva, sans-serif; font-size:11px; padding-top: 3px; margin-bottom:10px; }
+.cms-pagination-links a , .cms-pagination-links b { color:white; display:inline-block; margin: 0 3px; font-weight: bold; background-color: #BBBBBB; padding:2px 4px; }
+.cms-pagination-links b { color:red; }
+.cms-pagination-links a:hover { color: red; }

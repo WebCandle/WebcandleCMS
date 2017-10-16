@@ -1,0 +1,2 @@
+<label for="cms_elem10"><div class="label-title">الموضوع</div><input type="text" value="<?php echo cms_inputValue(stripslashes($CMS['values']['title'])) ; ?>" name="subject" class="form-text ar" id="cms_elem10"></label>
+<label for="cms_elem40"><div class="label-title">الرسالة</div><textarea name="message" class="form-textarea ar" id="cms_elem40"></textarea></label>

@@ -1,0 +1,11 @@
+RewriteEngine On
+
+RewriteRule ^confirm.php$ confirm.php  [L]
+RewriteRule ^ajax.php$ ajax.php  [L]
+RewriteRule ^redirect.php$ redirect.php  [L]
+RewriteRule ^image.php$ image.php  [L]
+RewriteRule ^demo.php$ demo.php  [L]
+RewriteRule ^rss.php$ rss.php  [L]
+RewriteRule ^verifyimage.php$ verifyimage.php  [L]
+RewriteRule ^file.php$ file.php  [L]
+RewriteRule ^([^?]*) index.php?_route_=$1 [L,QSA]

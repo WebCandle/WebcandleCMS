@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+body {
+	font-family: Tahoma, Geneva, sans-serif;
+}
+#topNav li {
+	float:right;
+	margin-right:0;
+	margin-left:5px;
+}
+#lang {
+	float:left;
+}
+#sideNav {
+	list-style-image: url(../images/right-arrow.png);
+	float:right;
+	padding-left:0;
+	padding-right:20px;
+}
+#content {
+	float:left;
+}
+.liveSupport {
+	padding-left:0;
+	padding-right:50px;
+	background: url(../images/live-support.png) no-repeat center right;
+}
+.pages {
+	direction: ltr;
+}
